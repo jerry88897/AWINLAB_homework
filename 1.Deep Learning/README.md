@@ -3,7 +3,10 @@
 能將flowers資料夾內的檔案，<br />
 以9:1的方式分為訓練集(3887張)與測試集(430張)，<br />
 再使用Keras建立VGG16的模型，並且加入兩層Dropout，<br />
-之後能載入模型，並進行辨識。
+在載入圖片時會進行Data Augmentation，<br />
+且有設定checkPoint及earlyStopping，<br />
+訓練之後能載入模型，並進行辨識，<br />
+雖然參數較龐大，但還是能有很好的表現。
 
 ## 資料夾結構
 [下載vgg16_0.85625.h5](https://drive.google.com/file/d/1bdblo4Msab4FRrOV4HzZqTLYTyFnWfQg/view?usp=share_link)
