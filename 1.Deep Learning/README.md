@@ -6,6 +6,7 @@
 之後能載入模型，並進行辨識。
 
 ## 資料夾結構
+[下載vgg16_0.85625.h5](https://drive.google.com/file/d/1bdblo4Msab4FRrOV4HzZqTLYTyFnWfQg/view?usp=share_link)
 ```
 .
 ├── ...
